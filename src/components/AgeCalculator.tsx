@@ -5,7 +5,7 @@ function AgeCalculator() {
     const [birthYear, setBirthYear] = useState(0);
     const [age, setAge] = useState(0);
 
-    const handleChange = (e) => {
+    const handleChange = (e:any) => {
         const value = e.target.value;
         setBirthYear(value);
         if (value && !isNaN(value)) {
