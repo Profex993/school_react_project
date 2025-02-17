@@ -1,3 +1,4 @@
 export function calcAge(age:number) {
-    return age;
+    const currentYear = new Date().getFullYear();
+    return currentYear - age;
 }
