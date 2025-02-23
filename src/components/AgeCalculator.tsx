@@ -18,10 +18,10 @@ function AgeCalculator() {
     return (
         <div>
             <label>
-                Zadej rok narození:
+                Zadej tvůj věk:
                 <input type="number" value={birthYear} onChange={handleChange}/>
             </label>
-            {age !== null && <p>Tvůj věk je: {age}</p>}
+            {age !== null && <p>Tvůj rok narození je: {age}</p>}
         </div>
     );
 }
